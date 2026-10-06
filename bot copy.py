@@ -38,6 +38,8 @@ async def on_message(message):
         await message.channel.send("Valla ben bir Maçkali, biraz Adanalıyım")
     elif message.content.startswith("Abdürrezzak"):
         await message.channel.send("Abdürrezzak Savurdur, bizim mahallenin bakkalcısı abi.")
+    elif message.content.startswith("Suriye"):
+        await message.channel.send("Ben suuuri")
     elif message.content.startswith('bye'):
         await message.channel.send("\U0001f642")
     else:
